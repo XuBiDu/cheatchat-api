@@ -66,6 +66,7 @@ GEM
       minitest (~> 5.0)
     multi_json (1.13.1)
     multipart-post (2.1.1)
+    nio4r (2.5.7)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     os (1.0.1)
@@ -77,7 +78,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.1.0)
-    puma (3.12.1)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -146,7 +148,7 @@ DEPENDENCIES
   minitest-rg
   pg
   pry
-  puma (~> 3.11)
+  puma (~> 4.3)
   rack
   rack-test
   rake
